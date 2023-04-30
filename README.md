@@ -6,3 +6,5 @@ The purpose of this project is to aggregate knowledge and serve as a reference f
 0. Java
     1. [What is Java](https://www.ibm.com/topics/java)
     2. Installing 
+        * choose [which JDK](https://whichjdk.com/) to use
+        * install using [SDKMAN](https://sdkman.io/)
