@@ -10,5 +10,5 @@ The purpose of this project is to aggregate knowledge and serve as a reference f
         * install using [SDKMAN](https://sdkman.io/)
 
 1. Tools
-    1.1. Maven
-    1.2. Spring Boot
+    1. Maven
+    2. Spring Boot
