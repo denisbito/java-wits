@@ -6,6 +6,6 @@ Apache [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-min
 
 This command creates a new, bare bones, java project:
 
-<pre>
-mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
-</pre>
+```console
+$ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
+```
