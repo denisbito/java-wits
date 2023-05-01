@@ -8,6 +8,8 @@ The purpose of this project is to aggregate knowledge and serve as a reference f
     2. Installation
         * choose [which JDK](https://whichjdk.com/) to use
         * install using [SDKMAN](https://sdkman.io/)
+    3. Create a project [using Maven](1-tools/maven.md)
+    4. Create a project using Spring Boot
 
 1. Tools
     1. Maven
