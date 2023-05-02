@@ -18,4 +18,4 @@ The purpose of this project is to aggregate knowledge and serve as a reference f
 ## 2. Frameworks
 1. [Spring](https://spring.io/)
 2. Spring Boot
-3. Hibernate/JPA
+3. JPA / Hibernate
