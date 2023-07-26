@@ -6,7 +6,7 @@ This sections focuses on using the Spring Framework in a standalone Java applica
   1. Creating the application
   2. Dependency Injection via XML
 
-## Creating the application
+## 1. Creating the application
 
 Run the command below to create a standalone Java application:
 
@@ -17,3 +17,4 @@ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
     -Dversion=1.0-SNAPSHOT \
     -DinteractiveMode=false
 ```
+## 2. Dependency Injection via XML
