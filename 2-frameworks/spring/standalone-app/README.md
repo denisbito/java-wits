@@ -38,7 +38,7 @@ Now add a dependency in the pom.xml to the [spring-context](https://mvnrepositor
 
 The application can be run by running the App.java class (in your preffered IDE).
 
-## 2. Dependenc Injection
+## 2. Dependency Injection
 Dependency injection can be configured in Spring using 3 strategies, which will be shown below.
 
 We'll use a basic service interface to represent the services we'll be manipulating:
