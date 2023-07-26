@@ -5,9 +5,9 @@ This sections focuses on using the Spring Framework in a standalone Java applica
 ## Topics
 1. Creating the application
 2. Dependenc injection
-  - 2.1 Java-based configuration
-  - 2.2 XML-based configuration
-  - 2.3 Annotation-based configuration
+    - 2.1 Java-based configuration
+    - 2.2 XML-based configuration
+    - 2.3 Annotation-based configuration
 4. aaa
 
 ## 1. Creating the application
