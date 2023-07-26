@@ -19,8 +19,8 @@ when asked, inform theses arguments:
 Or, to create the project in one go (non-interactively), run:
 ```console
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
-    -DgroupId=org.javawits.example
-    -DartifactId=HelloWorldApp
+    -DgroupId=org.javawits.example \
+    -DartifactId=HelloWorldApp \
     -DarchetypeVersion=1.0-SNAPSHOT
 ```
 
