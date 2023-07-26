@@ -77,3 +77,16 @@ public class GreetingServiceJavaBasedConfigImpl implements GreetingService {
 }
 ```
 
+Next, we create a class and annotate it with the @Configuration annotation, and add a method annotated with @Bean returning each service we want Spring to manage:
+```java
+@Configuration
+public class SpringConfig {
+
+	@Bean
+	GreetingService greetingService() {
+		return new GreetingServiceJavaBasedConfigImpl();
+	}
+
+}
+```
+
