@@ -36,7 +36,12 @@ Now add a dependency in the pom.xml to the [spring-context](https://mvnrepositor
   </dependencies>
 ```
 
-Finally, we'll create a basic Java interface defining two basic operations of a greeting service:
+The application can be run by running the App.java class (in your preffered IDE).
+
+## 2. Dependenc Injection
+Dependency injection can be configured in Spring using 3 strategies, which will be shown below.
+
+We'll use a basic service interface to represent the services we'll be manipulating:
 ```java
 package org.javawits.example.service;
 
@@ -51,9 +56,6 @@ public interface GreetingService {
 
 }
 ```
-
-## 2. Dependenc Injection
-Dependenc injection can be configured in Spring using 3 strategies, which will be shown below.
 
 ### 2.1. Java-based configuration
 This is the preferred Spring bean configuration method.
