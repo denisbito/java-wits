@@ -8,6 +8,7 @@ This sections focuses on using the Spring Framework in a standalone Java applica
     2.1. Java-based configuration
     2.2. XML-based configuration
     2.3. Annotation-based configuration
+3. aaa
 
 ## 1. Creating the application
 
