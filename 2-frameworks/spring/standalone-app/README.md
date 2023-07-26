@@ -117,6 +117,21 @@ public class App {
 
 We'll create another implementation of the GreetingService interface:
 ```java
+package org.javawits.example.service;
+
+public class GreetingServiceXmlBasedConfigImpl implements GreetingService {
+
+	@Override
+	public void greet() {
+		System.out.println("Hello! I'm an XML-based configured Spring service!");
+	}
+
+	@Override
+	public void greet(String name) {
+		System.out.println(String.format("Welcome to XML, %s!", name));
+	}
+
+}
 ```
 
 # References
