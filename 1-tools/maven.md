@@ -4,7 +4,7 @@ Apache [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-min
 
 ## Create a new Java project
 
-This command creates a new bare bones java project, interactively:
+This command line creates a new bare bones java project, interactively:
 ```console
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
 ```
