@@ -46,7 +46,7 @@ We'll use a basic service interface to represent the services we'll be manipulat
 package org.javawits.example.service;
 
 /**
- * Basic operations for a Greeting serivice.
+ * Basic operations for a Greeting service.
  */
 public interface GreetingService {
 
