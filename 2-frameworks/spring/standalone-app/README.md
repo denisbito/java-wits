@@ -33,4 +33,20 @@ Now add a dependency in the pom.xml to the [spring-core](https://mvnrepository.c
   </dependencies>
 ```
 
+Finally, we'll create a basic Java interface defining two basic operations of a greeting service:
+```java
+package org.javawits.example.service;
+
+/**
+ * Basic operations for a Greeting serivice.
+ */
+public interface GreetingService {
+
+	void greet();
+
+	void greet(String name);
+
+}
+```
+
 ## 2. Dependency Injection via XML
