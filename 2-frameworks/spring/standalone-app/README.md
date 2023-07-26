@@ -26,7 +26,7 @@ Now add a dependency in the pom.xml to the [spring-context](https://mvnrepositor
   <dependencies>
     ...
 
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
