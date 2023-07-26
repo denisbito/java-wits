@@ -23,4 +23,3 @@ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
     -DartifactId=HelloWorldApp \
     -Dversion=1.0-SNAPSHOT
 ```
-
