@@ -134,6 +134,23 @@ public class GreetingServiceXmlBasedConfigImpl implements GreetingService {
 }
 ```
 
+The next step is to create the XML file, which we'll call 'spring-beans.xml', specifying which objects spring will manage for us (create the file in the 'src/main' directory, i.e., the file path will be 'src/main/spring-beans.xml':
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Define this file as a spring beans definition -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!-- Define a bean -->
+  <bean id="xmlGreetingService" class="org.javawits.example.service.GreetingServiceXmlBasedConfigImpl" />
+  
+</beans>
+```
+
 # References
 - https://www.baeldung.com/spring-application-context
 - 
