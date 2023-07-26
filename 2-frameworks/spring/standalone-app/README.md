@@ -92,3 +92,24 @@ public class SpringConfig {
 }
 ```
 
+Finally, we can modify the App.java class to create the application context (spring container that manages beans), load the service and call the service method:
+```java
+/**
+ * Standalone app created with Maven
+ */
+public class App {
+
+	public static void main(String[] args) {
+		// construct the Application Context
+		ApplicationContext annotationAppContext = new AnnotationConfigApplicationContext(SpringConfig.class);
+
+		// Get the service
+		GreetingService service = annotationAppContext.getBean(GreetingService.class);
+
+		// call the service method
+		service.greet();
+		service.greet("Earthling");
+	}
+
+}
+```
