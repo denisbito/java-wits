@@ -21,6 +21,6 @@ Or, to create the project in one go (non-interactively), run:
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
     -DgroupId=org.javawits.example \
     -DartifactId=HelloWorldApp \
-    -Dpackage=org.javawits.example \
-    -Dversion=1.0-SNAPSHOT
+    -Dversion=1.0-SNAPSHOT \
+    -DinteractiveMode=false
 ```
