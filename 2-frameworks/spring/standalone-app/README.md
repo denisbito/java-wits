@@ -22,12 +22,14 @@ Now add a dependency in the pom.xml to the [spring-core](https://mvnrepository.c
   ...
   <dependencies>
     ...
+
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
       <version>6.0.11</version>
     </dependency>
+
   </dependencies>
 ```
 
