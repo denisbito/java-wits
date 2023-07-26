@@ -7,5 +7,9 @@ This sections focuses on using the Spring Framework in a standalone Java applica
 Run the command below to create a standalone Java application:
 
 ```console
-
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DgroupId=org.javawits.example \
+    -DartifactId=SpringStandaloneApp \
+    -Dversion=1.0-SNAPSHOT \
+    -DinteractiveMode=false
 ```
