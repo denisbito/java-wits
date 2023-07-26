@@ -157,6 +157,25 @@ The next step is to create the XML file, which we'll call 'spring-beans.xml', sp
   
 </beans>
 ```
+Finally, let's add code to the main() method in App.java, that will load the Spring beans from the XML file (create a new Application context) and call the service:
+```java
+	// construct Application Context from XML file
+	FileSystemXmlApplicationContext xmlAppContext = new FileSystemXmlApplicationContext(
+			"src/main/spring-beans.xml");
+
+	// get the service from the XML file context and call
+	GreetingService serviceXml = xmlAppContext.getBean(GreetingService.class);
+	serviceXml.greet();
+	serviceXml.greet("Lennon");
+```
+
+After we run App.java again, now the output looks like this:
+<pre>
+Hello! I'm a Java-based configured Spring service!
+Hello Earthling!
+Hello! I'm an XML-based configured Spring service!
+Welcome to XML, Lennon!
+</pre>
 
 # References
 - https://www.baeldung.com/spring-application-context
