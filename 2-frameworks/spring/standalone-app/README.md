@@ -20,7 +20,7 @@ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false
 ```
 
-Now add a dependency in the pom.xml to the [spring-core](https://mvnrepository.com/artifact/org.springframework/spring-core) artifact:
+Now add a dependency in the pom.xml to the [spring-context](https://mvnrepository.com/artifact/org.springframework/spring-context) artifact:
 ```xml
   ...
   <dependencies>
@@ -29,7 +29,7 @@ Now add a dependency in the pom.xml to the [spring-core](https://mvnrepository.c
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
     <dependency>
       <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
+      <artifactId>spring-context</artifactId>
       <version>6.0.11</version>
     </dependency>
 
