@@ -60,5 +60,20 @@ This is the preferred Spring bean configuration method.
 
 First, we create the service class (implementing the interface):
 ```java
+package org.javawits.example.service;
+
+public class GreetingServiceJavaBasedConfigImpl implements GreetingService {
+
+	@Override
+	public void greet() {
+		System.out.println("Hello! I'm Java-based configured Spring service!");
+	}
+
+	@Override
+	public void greet(String name) {
+		System.out.println(String.format("Hello %s!", name));
+	}
+
+}
 ```
 
