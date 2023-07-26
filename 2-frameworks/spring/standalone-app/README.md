@@ -52,4 +52,13 @@ public interface GreetingService {
 }
 ```
 
-## 2. Dependency Injection via XML
+## 2. Dependenc Injection
+Dependenc injection can be configured in Spring using 3 strategies, which will be shown below.
+
+### 2.1. Java-based configuration
+This is the preferred Spring bean configuration method.
+
+First, we create the service class (implementing the interface):
+```java
+```
+
