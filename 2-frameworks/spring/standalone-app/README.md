@@ -113,6 +113,13 @@ public class App {
 
 }
 ```
+
+When we run the App.java class, the output looks like this:
+<pre>
+Hello! I'm a Java-based configured Spring service!
+Hello Earthling!
+</pre>
+
 ### 2.2. XML-based configuration
 
 We'll create another implementation of the GreetingService interface:
