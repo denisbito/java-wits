@@ -1,6 +1,6 @@
 # Maven
 
-Apache [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) is a popular tool for managing Java software projects. It can help create, build, test, document, and deploy apps. Maven can be run through the command line, or .
+Apache [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) is a popular tool for managing Java software projects. It can help create, build, test, document, and deploy apps.
 
 ## Create a new Java project
 
