@@ -100,7 +100,7 @@ Finally, we can modify the App.java class to create the application context (spr
 public class App {
 
 	public static void main(String[] args) {
-		// construct the Application Context
+		// construct the Application Context from an annotated config class
 		ApplicationContext annotationAppContext = new AnnotationConfigApplicationContext(SpringConfig.class);
 
 		// Get the service
