@@ -4,4 +4,4 @@ The [Spring Framework](https://spring.io/) was started in 2003 to facilitate the
 Today, Spring has evolved to a whole family of modules and APIs, which help create web applications (Spring MVC), access data stored in databases (Spring Data), create RESTful web services and work with Microservices, among many others.
 
 ## Topics
-1. Create a [Standalone](./standalone) Spring App
+1. Create a [Standalone](./standalone-app) Spring App
