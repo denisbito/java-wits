@@ -113,3 +113,12 @@ public class App {
 
 }
 ```
+### 2.2. XML-based configuration
+
+We'll create another implementation of the GreetingService interface:
+```java
+```
+
+# References
+- https://www.baeldung.com/spring-application-context
+- 
